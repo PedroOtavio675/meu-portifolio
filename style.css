@@ -1,17 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 *{
     padding: 0px;
     margin: 0px;
 }
 header{
-    background-color: #643421;
+    background-color: #00324c;
     display: flex;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: white;
+    color: #ffffff;
     justify-content: space-between;
-    padding: 10px;
+    padding: 20px;
 }
 body{
-    background-color: #965a30;
+    background-color: #00506d;
+  
+    
 }
 a{
     text-decoration: none;
@@ -21,6 +24,35 @@ a{
     padding: 10px;
     color: black;
 }
-ul{
+#corpo{
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    
+    
+}
+#descricao{
+    padding-left: 40px;
+    font-family: "Manrope", sans-serif;
    
+}
+button{
+    height: 35px;
+    width: 150px;
+    background-color: #00b7c7;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.356);
+    margin-top: 20px;
+}
+button:hover{
+    background-color:#00b6c7c7 ;
+}
+#teste{
+    clip-path: polygon(9% 21%, 79% 6%, 98% 96%, 4% 46%);
+    background-color: antiquewhite;
+    height: 100px;
 }
