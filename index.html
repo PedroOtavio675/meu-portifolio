@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu" />
 </head>
 <body>
-
+   
     <div class="barra-lateral">
         <button onclick="sairBarraLateral()" class="sairBarraLateral"><span class="material-symbols-outlined" >
             arrow_back_ios
@@ -36,9 +36,17 @@
                     </span>
                </button>
     </header>
+    
+        <div class="orbita-container" id="container">
+            
+          </div>
+
+
     <div id="corpo">
+        
+        
+        
         <div id="descricao">
-         
           <div id="teste">
               <h3>Oi, eu sou</h3>
               <h1 style="color: #00fff6;">Pedro Otávio Rodrigues Pacheco</h1>
@@ -98,13 +106,25 @@
         </div>
     </section>
 
+    <section class="projetos">
+         <h1>Projetos</h1>
+         <div class="container-projetos">
+              <div class="projeto">
+                
+              </div>
+         </div>
+    </section>
+
     </div>
   <section class="contato" id="contato" >
         <h1>Contato</h1>
         <div class="imagens">
         <a target="_blank" href="https://www.linkedin.com/in/pedro-ot%C3%A1vio-rodrigues-pacheco-016254362?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img src="img/linkedin_2504923.png" alt=""></a>
-        <a href="https://www.instagram.com/ot4vi0">
+        <a target="_blank" href="https://www.instagram.com/ot4vi0">
         <img src="img/instagram_2111463.png" alt="">
+        <a target="_blank" href="https://github.com/PedroOtavio675">
+            <img src="img/github_logo_icon_229278.webp" alt="">
+        </a>
     </a>
     </div>
           <form action="" class="formulario-contato" id="formulario">
@@ -182,6 +202,21 @@ function radioselected(x){
         css.style.display = "none"
     }
 }
+  const container = document.getElementById('container');
+
+    for (let i = 0; i < 1000; i++) {
+      const particula = document.createElement('div');
+      particula.classList.add('particula');
+
+      const raio = 0 + Math.random() * 2100; // distância do centro
+      const duracao = 4 + Math.random() * 100; // tempo da rotação
+
+      particula.style.transformOrigin = `${raio}px ${raio}px`;
+      particula.style.animationDuration = `${duracao}s`;
+      particula.style.backgroundColor = `rgb(0, 255, ${Math.random() * 255})`; // cor aleatória
+
+      container.appendChild(particula);
+    }
 
 </script>
 </body>

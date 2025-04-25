@@ -4,8 +4,11 @@
     margin: 0px;
     box-sizing: border-box;
     font-family: Manrope;
+  
 }
-
+body{
+    overflow-x: hidden;
+}
 header{
     position: fixed;
     width: 100vw;
@@ -45,6 +48,7 @@ header{
 #home{
     background: linear-gradient(127deg,rgba(0, 42, 76, 1) 0%, rgba(0, 42, 76, 1) 55%, rgba(0, 88, 161, 1) 100%);
     z-index: -2; 
+    
 }
 .material-symbols-outlined{
     color: black;
@@ -95,7 +99,7 @@ width: 100%;
     height: 100vh;
     width: 100vw;
     align-items: center;
-    
+   
 }
 
 #botaoSobre{
@@ -154,6 +158,34 @@ width: 100%;
         transform: translate(-20px);
     }
 }
+.orbita-container {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    right: 75%;
+    top: -100%;
+    
+  }
+
+
+  .particula {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: cyan;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+   
+    animation: girar 10s linear infinite;
+  }
+
+ 
+
+  @keyframes girar {
+    0%   { transform: rotate(0deg) translateX(0) translateY(0); }
+    100% { transform: rotate(360deg) translateX(0) translateY(0); }
+  }
 #teste{
     position: relative;
     height: 500px;
@@ -182,6 +214,7 @@ width: 100%;
     justify-content: center;
     transition: 300ms;
     z-index: 999;
+   
 }
 .barra-lateral-move{
     right: 0%;
@@ -216,8 +249,9 @@ color: black;
     border: solid #ffffff 1px;
     padding: 20px;
     border-radius: 20px;
-    background-color: #00b6c722;
+    background-color: #0066ff;
     transition: 0.5s;
+    z-index: 9;
 }
 .container-sobre:hover{
     transform: translate(-10px) scale(1.03);
@@ -264,6 +298,7 @@ img{
     border: solid #ffffff 1px;
     border-radius: 20px;
     transition: 0.5s;
+    background-color: #000000;
 }
 .cardHabilidades:hover{
     box-shadow: 0 10px 20px rgba(255, 255, 255, 0.356);
@@ -351,4 +386,13 @@ img{
     background-color:#4e4e4e;
     color: white;
     transform: translateY(-1px) scale(1.001);
+}
+.projetos{
+    width: 100vw;
+    height: 100vh;
+    background-color: #000000;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
