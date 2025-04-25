@@ -162,7 +162,7 @@ width: 100%;
     justify-content: center;
     flex-direction: column;
     z-index: 2;
-   
+   margin-left: 40px;
 }
 #forma:hover{
     transform: translate(-10px) scale(1.03);
@@ -274,6 +274,7 @@ img{
 }
 
 @media (max-width:1350px){
+    
 .caixa-btn-radio{
     display: inline;
 }
@@ -289,6 +290,7 @@ img{
     border: none;
     
 }
+
 } 
 .contato{
     background-color: lightblue;
