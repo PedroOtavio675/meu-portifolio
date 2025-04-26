@@ -265,6 +265,9 @@ color: black;
         width: 300px;
         text-align: justify;
     } 
+    .imgContato{
+        width: 70px;
+    }
 }
 
 
@@ -330,7 +333,7 @@ img{
 .contato{
     background-color: lightblue;
     width: 100vw;
-    height: 100vh;
+    height: 90vh;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -395,4 +398,11 @@ img{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+footer{
+    background-color: rgb(150, 194, 208);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
 }
