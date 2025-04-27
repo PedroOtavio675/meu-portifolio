@@ -10,7 +10,7 @@
 </head>
 <body>
    
-    <div class="barra-lateral">
+    <div class="barra-lateral" id="barra-lateral">
         <button onclick="sairBarraLateral()" class="sairBarraLateral"><span class="material-symbols-outlined" >
             arrow_back_ios
             </span></button>
@@ -40,11 +40,9 @@
                     </span>
                </button>
     </header>
-    
-        <div class="orbita-container" id="container">
-            
-          </div>
+    <div class="bolinha" id="bolinha">
 
+    </div>
 
     <div id="corpo">
         
@@ -144,6 +142,7 @@
                 <button onclick="enviarMensagem(event)"  class="button-form">Enviar Whatsapp</button>
             </div>
             
+            
           </form>
     </div>
     
@@ -170,14 +169,13 @@
    
 
 function sairBarraLateral(){
-        document.querySelector(".barra-lateral").classList.remove("barra-lateral-move")
-        console.log("okk")
+       let barra = document.getElementById("barra-lateral")
+    barra.style.visibility = "hidden"
     }
 
 function barra(){
-    document.querySelector(".barra-lateral").classList.add("barra-lateral-move")
-    console.log("ok")
-    
+   let barra = document.getElementById("barra-lateral")
+    barra.style.visibility = "inherit"
 }
 function radioselected(x){
     let caixa = document.querySelector(".cardHabilidades")
@@ -210,21 +208,7 @@ function radioselected(x){
         css.style.display = "none"
     }
 }
-  const container = document.getElementById('container');
-
-    for (let i = 0; i < 1000; i++) {
-      const particula = document.createElement('div');
-      particula.classList.add('particula');
-
-      const raio = 0 + Math.random() * 1500; // distância do centro
-      const duracao = 4 + Math.random() * 100; // tempo da rotação
-
-      particula.style.transformOrigin = `${raio}px ${raio}px`;
-      particula.style.animationDuration = `${duracao}s`;
-      particula.style.backgroundColor = `rgb(0, 255, ${Math.random() * 255})`; // cor aleatória
-
-      container.appendChild(particula);
-    }
+  
 
 </script>
 </body>
