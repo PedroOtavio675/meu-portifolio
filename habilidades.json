@@ -10,28 +10,28 @@
     "id": "css",
     "nome": "CSS",
     "imagem": "img/cssImg.png",
-    "descricao": "CSS (Cascading Style Sheets) é uma linguagem essencial para o desenvolvimento web, responsável pela formatação e layout das páginas. Enquanto o HTML estrutura o conteúdo, o CSS define a aparência visual, controlando elementos como cores, fontes, espaçamento e disposição. Com recursos como media queries, permite criar designs responsivos, adaptando-se a diferentes tamanhos de tela.",
+    "descricao": "CSS (Cascading Style Sheets) é uma linguagem essencial para o desenvolvimento web, responsável pela formatação e layout das páginas. Enquanto o HTML estrutura o conteúdo, o CSS define a aparência visual, controlando elementos como cores, fontes, espaçamento e disposição.",
     "nivel": 85
   },
   {
     "id": "html",
     "nome": "HTML",
     "imagem": "img/htmlImg.png",
-    "descricao": "HTML (HyperText Markup Language) é a linguagem de marcação fundamental para a construção de páginas web. Ele define a estrutura e o conteúdo de uma página, utilizando uma série de elementos, como títulos, parágrafos, listas, links, imagens e formulários. Com a organização dessas tags, o HTML cria a base sobre a qual o CSS e o JavaScript podem ser aplicados, permitindo a formatação e interatividade. Além disso, o HTML é responsável por tornar os sites acessíveis aos motores de busca e a leitores de tela, garantindo uma boa experiência para todos os usuários.",
+    "descricao": "HTML (HyperText Markup Language) é a linguagem de marcação fundamental para a construção de páginas web. Ele define a estrutura e o conteúdo de uma página, utilizando uma série de elementos, como títulos, parágrafos, listas, links, imagens e formulários. Fiz vários projetinhos pesseoais usando essa liguagem de marcação, por exemplo esse portifólio foi feito usando HTMl.",
     "nivel": 90
   },
   {
     "id": "arduino",
     "nome": "Arduino",
     "imagem": "img/arduinoimg.png",
-    "descricao": "Arduino é uma plataforma de prototipagem eletrônica de código aberto que permite a criação de projetos interativos, combinando hardware e software de maneira simples e acessível. Utilizando uma placa de circuito e uma linguagem de programação baseada em C/C++, o Arduino facilita a construção de dispositivos como sensores, motores e luzes, que podem ser controlados por meio de comandos codificados.",
+    "descricao": "Arduino é uma plataforma de prototipagem eletrônica de código aberto que permite a criação de projetos interativos, combinando hardware e software de maneira simples e acessível. Utilizando uma placa de circuito e uma linguagem de programação baseada em C/C++, alguns dos projetos que eu fiz usando a placa está na aba de projetos.",
     "nivel": 75
   },
   {
     "id": "react",
     "nome": "React",
     "imagem": "img/react.svg",
-    "descricao": "React é uma biblioteca JavaScript para construção de interfaces de usuário, permitindo a criação de componentes reutilizáveis e uma experiência de usuário dinâmica. Com sua abordagem baseada em componentes, o React facilita a gestão do estado da aplicação e a atualização eficiente da interface, tornando-o uma escolha popular para o desenvolvimento de aplicações web modernas.",
+    "descricao": "React é uma biblioteca JavaScript para construção de interfaces de usuário, Já fiz projetos como o DashBoard que aparece na aba de projetos e um site para biblioteca da minha escola que ainda está em desenvolvimento usando react",
     "nivel": 70
   },
   {
@@ -45,14 +45,14 @@
     "id": "tailwind",
     "nome": "Tailwind CSS",
     "imagem": "img/tailwind-css-logo-png_seeklogo-434090.png",
-    "descricao": "Tailwind CSS é um framework CSS utilitário que permite a criação de designs personalizados de forma rápida e eficiente. Com uma abordagem baseada em classes, o Tailwind facilita a aplicação de estilos diretamente no HTML, promovendo a consistência e a reutilização de componentes.",
+    "descricao": "Gosto de usar TailWind CSS em projetos React pois facilita a aplicação de estilo direto no HTML do projeto",
     "nivel": 60
   },
   {
     "id": "ubuntu",
     "nome": "Ubuntu Server",
     "imagem": "img/ubuntu-server-logo.png",
-    "descricao": "Ubuntu Server é uma distribuição Linux popular para servidores, conhecida por sua estabilidade e segurança. É amplamente utilizada em ambientes de nuvem e data centers, oferecendo uma plataforma robusta para aplicações web e serviços.",
+    "descricao": "Já instalei um servidor Ubunto para rodar o BackEnd, banco PostGreSQL e FrontEnd de um projeto de site para a biblioteca da minha escola",
     "nivel": 80
   }
 ]

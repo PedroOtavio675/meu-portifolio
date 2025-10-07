@@ -277,7 +277,8 @@ a:hover {
 }
 .container-projetos{
     display: flex;
-
+    justify-content: center;
+   flex-wrap: wrap;
 }
 .projeto{
     width: 320px;

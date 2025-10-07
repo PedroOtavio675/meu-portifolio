@@ -4,14 +4,14 @@
     "nome": "Escavadeira Hidraulica",
     "imagem": "img/escavadeira.jpeg",
     "descricao": "Projeto desenvolvido em 2024, durante o 2º ano do Ensino Médio em Tempo Integral (EMTI). Consiste em uma escavadeira automatizada controlada por Arduino, equipada com motores DC e sensores para execução dos movimentos. O controle é realizado via Bluetooth, por meio de um aplicativo mobile desenvolvido especificamente para o projeto.",
-    "link":"https://www.instagram.com/p/DCP4vRVvE-O/"
+    "link":"https://www.linkedin.com/posts/pedro-ot%C3%A1vio-rodrigues-pacheco_projeto-realizado-no-2ano-do-ensino-m%C3%A9dio-ugcPost-7320973749892071424-QTqB?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFoX6BIBR8AJwDdTyg8KE9TJVv3oTDENOXI"
   },
   {
     "id": "aranhaRobotica",
     "nome": "Aranha Robótica",
     "imagem": "img/aranha.jpeg",
     "descricao": "Projeto desenvolvido com estrutura mecânica em canos de PVC, utilizando Arduino para o controle da direção e rotação de dois motores DC. O sistema conta com um sensor infravermelho (IR) responsável por interpretar os sinais de um controle remoto, permitindo o acionamento e controle remoto do movimento.",
-    "link":"https://www.instagram.com/eesantaterezinhalg/reel/C0EudqSrvVK/"
+    "link":"https://www.linkedin.com/posts/pedro-ot%C3%A1vio-rodrigues-pacheco_projeto-realizado-no-1-ano-do-ensino-m%C3%A9dio-ugcPost-7320974721620107264-TIFe?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFoX6BIBR8AJwDdTyg8KE9TJVv3oTDENOXI"
   },
   {
     "id": "dashBoard",
@@ -24,7 +24,14 @@
     "id": "servidorUbunto",
     "nome": "Servidor Ubunto",
     "imagem": "img/UbuntoServer.png",
-    "descricao": "Intalação do sitema operacional Ubunto Server para armazenar o banco de dados PostGreSQL, BackEnd - nodeJS e frontEnd do site da biblioteca que eu estou desenvolvendo.",
-    "link":"d"
+    "descricao": "Intalação do sitema operacional Ubunto Server para armazenar o banco de dados PostGreSQL, BackEnd - nodeJS e frontEnd do site da biblioteca que eu estou desenvolvendo. (sem video disponivel)",
+    "link":"sem video disponivel"
+  },
+  {
+    "id": "biblioteca",
+    "nome": "Site da Biblioteca",
+    "imagem": "img/biblioteca.png",
+    "descricao": "Esse projeto tem o objetivo de divulgar os livros existentes na biblioteca da minha escola, o site vai possibilitar marcar livros como favoritos, mostrar os livros mais lidos, quem lê mais livros e outras funcionalidades que ainda estão em desenvolvimento.    (sem vídeo disponivel)",
+    "link":"sem video disponivel"
   }
 ]
