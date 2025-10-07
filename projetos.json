@@ -1,37 +1,37 @@
 [
-    {
+  {
     "id": "escavadeira",
-    "nome": "Escavadeira Hidraulica",
+    "nome": "Escavadeira Hidráulica",
     "imagem": "img/escavadeira.jpeg",
-    "descricao": "Projeto desenvolvido em 2024, durante o 2º ano do Ensino Médio em Tempo Integral (EMTI). Consiste em uma escavadeira automatizada controlada por Arduino, equipada com motores DC e sensores para execução dos movimentos. O controle é realizado via Bluetooth, por meio de um aplicativo mobile desenvolvido especificamente para o projeto.",
-    "link":"https://www.linkedin.com/posts/pedro-ot%C3%A1vio-rodrigues-pacheco_projeto-realizado-no-2ano-do-ensino-m%C3%A9dio-ugcPost-7320973749892071424-QTqB?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFoX6BIBR8AJwDdTyg8KE9TJVv3oTDENOXI"
+    "descricao": "Projeto desenvolvido em 2024, durante o 2º ano do Ensino Médio em Tempo Integral (EMTI). Consiste em uma escavadeira automatizada controlada por Arduino, equipada com motores DC e sensores para a execução dos movimentos. O controle é realizado via Bluetooth, por meio de um aplicativo mobile desenvolvido especificamente para o projeto.",
+    "link": "https://www.linkedin.com/posts/pedro-ot%C3%A1vio-rodrigues-pacheco_projeto-realizado-no-2ano-do-ensino-m%C3%A9dio-ugcPost-7320973749892071424-QTqB?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFoX6BIBR8AJwDdTyg8KE9TJVv3oTDENOXI"
   },
   {
     "id": "aranhaRobotica",
     "nome": "Aranha Robótica",
     "imagem": "img/aranha.jpeg",
-    "descricao": "Projeto desenvolvido com estrutura mecânica em canos de PVC, utilizando Arduino para o controle da direção e rotação de dois motores DC. O sistema conta com um sensor infravermelho (IR) responsável por interpretar os sinais de um controle remoto, permitindo o acionamento e controle remoto do movimento.",
-    "link":"https://www.linkedin.com/posts/pedro-ot%C3%A1vio-rodrigues-pacheco_projeto-realizado-no-1-ano-do-ensino-m%C3%A9dio-ugcPost-7320974721620107264-TIFe?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFoX6BIBR8AJwDdTyg8KE9TJVv3oTDENOXI"
+    "descricao": "Projeto desenvolvido com estrutura mecânica em canos de PVC, utilizando Arduino para o controle da direção e rotação de dois motores DC. O sistema conta com um sensor infravermelho (IR) responsável por interpretar os sinais de um controle remoto, permitindo o acionamento e controle do movimento à distância.",
+    "link": "https://www.linkedin.com/posts/pedro-ot%C3%A1vio-rodrigues-pacheco_projeto-realizado-no-1-ano-do-ensino-m%C3%A9dio-ugcPost-7320974721620107264-TIFe?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFoX6BIBR8AJwDdTyg8KE9TJVv3oTDENOXI"
   },
   {
     "id": "dashBoard",
-    "nome": "DashBoard Técnico",
+    "nome": "Dashboard Técnico",
     "imagem": "img/dashboard.png",
-    "descricao": "Projeto desenvolvido em grupo no curso de Informática da Escola Estadual Santa Terezinha, em Lagoa Grande/MG. O objetivo foi automatizar o desligamento de equipamentos escolares, aumentando a eficiência energética e otimizando o controle operacional.(O projeto ainda está em desenvolvimento)Ferramentas utilizadas no Front-end do Dashboard:Vite + React + TypeScriptTailwind CSSAxios (para requisições à API)",
-    "link":"https://www.linkedin.com/posts/pedro-ot%C3%A1vio-rodrigues-pacheco_dashboard-t%C3%A9cnico-projeto-desenvolvido-activity-7381132516243513344-OC95?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFoX6BIBR8AJwDdTyg8KE9TJVv3oTDENOXI"
+    "descricao": "Projeto desenvolvido em grupo no curso de Informática da Escola Estadual Santa Terezinha, em Lagoa Grande/MG. O objetivo foi automatizar o desligamento de equipamentos escolares, aumentando a eficiência energética e otimizando o controle operacional. (O projeto ainda está em desenvolvimento.) Ferramentas utilizadas no Front-end do Dashboard: Vite + React + TypeScript, Tailwind CSS, Axios (para requisições à API).",
+    "link": "https://www.linkedin.com/posts/pedro-ot%C3%A1vio-rodrigues-pacheco_dashboard-t%C3%A9cnico-projeto-desenvolvido-activity-7381132516243513344-OC95?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFoX6BIBR8AJwDdTyg8KE9TJVv3oTDENOXI"
   },
   {
     "id": "servidorUbunto",
-    "nome": "Servidor Ubunto",
-    "imagem": "img/UbuntoServer.png",
-    "descricao": "Intalação do sitema operacional Ubunto Server para armazenar o banco de dados PostGreSQL, BackEnd - nodeJS e frontEnd do site da biblioteca que eu estou desenvolvendo. (sem video disponivel)",
-    "link":"sem video disponivel"
+    "nome": "Servidor Ubuntu",
+    "imagem": "img/serverUbunto.jpeg",
+    "descricao": "Instalação do sistema operacional Ubuntu Server para armazenar o banco de dados PostgreSQL, o Back-End (Node.js) e o Front-End do site da biblioteca que estou desenvolvendo.",
+    "link": "https://www.linkedin.com/posts/pedro-ot%C3%A1vio-rodrigues-pacheco_este-v%C3%ADdeo-demonstra-um-teste-do-site-que-ugcPost-7381451117643255808-7ap4?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFoX6BIBR8AJwDdTyg8KE9TJVv3oTDENOXI"
   },
   {
     "id": "biblioteca",
     "nome": "Site da Biblioteca",
     "imagem": "img/biblioteca.png",
-    "descricao": "Esse projeto tem o objetivo de divulgar os livros existentes na biblioteca da minha escola, o site vai possibilitar marcar livros como favoritos, mostrar os livros mais lidos, quem lê mais livros e outras funcionalidades que ainda estão em desenvolvimento.    (sem vídeo disponivel)",
-    "link":"sem video disponivel"
+    "descricao": "Esse projeto tem o objetivo de divulgar os livros existentes na biblioteca da minha escola. O site vai possibilitar marcar livros como favoritos, exibir os livros mais lidos, quem lê mais livros e outras funcionalidades que ainda estão em desenvolvimento.",
+    "link": "https://www.linkedin.com/posts/pedro-ot%C3%A1vio-rodrigues-pacheco_este-v%C3%ADdeo-demonstra-um-teste-do-site-que-ugcPost-7381451117643255808-7ap4?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFoX6BIBR8AJwDdTyg8KE9TJVv3oTDENOXI"
   }
 ]
