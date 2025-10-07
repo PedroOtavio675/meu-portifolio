@@ -1,0 +1,30 @@
+[
+    {
+    "id": "escavadeira",
+    "nome": "Escavadeira Hidraulica",
+    "imagem": "img/escavadeira.jpeg",
+    "descricao": "Projeto desenvolvido em 2024, durante o 2º ano do Ensino Médio em Tempo Integral (EMTI). Consiste em uma escavadeira automatizada controlada por Arduino, equipada com motores DC e sensores para execução dos movimentos. O controle é realizado via Bluetooth, por meio de um aplicativo mobile desenvolvido especificamente para o projeto.",
+    "link":"https://www.instagram.com/p/DCP4vRVvE-O/"
+  },
+  {
+    "id": "aranhaRobotica",
+    "nome": "Aranha Robótica",
+    "imagem": "img/aranha.jpeg",
+    "descricao": "Projeto desenvolvido com estrutura mecânica em canos de PVC, utilizando Arduino para o controle da direção e rotação de dois motores DC. O sistema conta com um sensor infravermelho (IR) responsável por interpretar os sinais de um controle remoto, permitindo o acionamento e controle remoto do movimento.",
+    "link":"https://www.instagram.com/eesantaterezinhalg/reel/C0EudqSrvVK/"
+  },
+  {
+    "id": "dashBoard",
+    "nome": "DashBoard Técnico",
+    "imagem": "img/dashboard.png",
+    "descricao": "Projeto desenvolvido em grupo no curso de Informática da Escola Estadual Santa Terezinha, em Lagoa Grande/MG. O objetivo foi automatizar o desligamento de equipamentos escolares, aumentando a eficiência energética e otimizando o controle operacional.(O projeto ainda está em desenvolvimento)Ferramentas utilizadas no Front-end do Dashboard:Vite + React + TypeScriptTailwind CSSAxios (para requisições à API)",
+    "link":"https://www.linkedin.com/posts/pedro-ot%C3%A1vio-rodrigues-pacheco_dashboard-t%C3%A9cnico-projeto-desenvolvido-activity-7381132516243513344-OC95?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFoX6BIBR8AJwDdTyg8KE9TJVv3oTDENOXI"
+  },
+  {
+    "id": "servidorUbunto",
+    "nome": "Servidor Ubunto",
+    "imagem": "img/UbuntoServer.png",
+    "descricao": "Intalação do sitema operacional Ubunto Server para armazenar o banco de dados PostGreSQL, BackEnd - nodeJS e frontEnd do site da biblioteca que eu estou desenvolvendo.",
+    "link":"d"
+  }
+]

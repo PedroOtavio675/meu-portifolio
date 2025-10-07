@@ -1,0 +1,58 @@
+[
+  {
+    "id": "javaScript",
+    "nome": "JavaScript",
+    "imagem": "img/jvImg.png",
+    "descricao": "Embora meu conhecimento em JavaScript ainda esteja em desenvolvimento, já tenho uma boa compreensão dos conceitos básicos, como variáveis, integração com CSS e HTML, além de funções e métodos. Estou sempre buscando aprofundar meus estudos e expandir minhas habilidades nessa linguagem para poder explorar todo o seu potencial.",
+    "nivel": 70
+  },
+  {
+    "id": "css",
+    "nome": "CSS",
+    "imagem": "img/cssImg.png",
+    "descricao": "CSS (Cascading Style Sheets) é uma linguagem essencial para o desenvolvimento web, responsável pela formatação e layout das páginas. Enquanto o HTML estrutura o conteúdo, o CSS define a aparência visual, controlando elementos como cores, fontes, espaçamento e disposição. Com recursos como media queries, permite criar designs responsivos, adaptando-se a diferentes tamanhos de tela.",
+    "nivel": 85
+  },
+  {
+    "id": "html",
+    "nome": "HTML",
+    "imagem": "img/htmlImg.png",
+    "descricao": "HTML (HyperText Markup Language) é a linguagem de marcação fundamental para a construção de páginas web. Ele define a estrutura e o conteúdo de uma página, utilizando uma série de elementos, como títulos, parágrafos, listas, links, imagens e formulários. Com a organização dessas tags, o HTML cria a base sobre a qual o CSS e o JavaScript podem ser aplicados, permitindo a formatação e interatividade. Além disso, o HTML é responsável por tornar os sites acessíveis aos motores de busca e a leitores de tela, garantindo uma boa experiência para todos os usuários.",
+    "nivel": 90
+  },
+  {
+    "id": "arduino",
+    "nome": "Arduino",
+    "imagem": "img/arduinoimg.png",
+    "descricao": "Arduino é uma plataforma de prototipagem eletrônica de código aberto que permite a criação de projetos interativos, combinando hardware e software de maneira simples e acessível. Utilizando uma placa de circuito e uma linguagem de programação baseada em C/C++, o Arduino facilita a construção de dispositivos como sensores, motores e luzes, que podem ser controlados por meio de comandos codificados.",
+    "nivel": 75
+  },
+  {
+    "id": "react",
+    "nome": "React",
+    "imagem": "img/react.svg",
+    "descricao": "React é uma biblioteca JavaScript para construção de interfaces de usuário, permitindo a criação de componentes reutilizáveis e uma experiência de usuário dinâmica. Com sua abordagem baseada em componentes, o React facilita a gestão do estado da aplicação e a atualização eficiente da interface, tornando-o uma escolha popular para o desenvolvimento de aplicações web modernas.",
+    "nivel": 70
+  },
+  {
+    "id": "nodeJS",
+    "nome": "Node.js",
+    "imagem": "img/nodeJSImg.png",
+    "descricao": "Node.js é um ambiente de execução JavaScript do lado do servidor, permitindo a construção de aplicações escaláveis e de alto desempenho. Com uma arquitetura orientada a eventos e um modelo de I/O não bloqueante, o Node.js é ideal para aplicações em tempo real e serviços web que exigem alta concorrência.",
+    "nivel": 65
+  },
+  {
+    "id": "tailwind",
+    "nome": "Tailwind CSS",
+    "imagem": "img/tailwind-css-logo-png_seeklogo-434090.png",
+    "descricao": "Tailwind CSS é um framework CSS utilitário que permite a criação de designs personalizados de forma rápida e eficiente. Com uma abordagem baseada em classes, o Tailwind facilita a aplicação de estilos diretamente no HTML, promovendo a consistência e a reutilização de componentes.",
+    "nivel": 60
+  },
+  {
+    "id": "ubuntu",
+    "nome": "Ubuntu Server",
+    "imagem": "img/ubuntu-server-logo.png",
+    "descricao": "Ubuntu Server é uma distribuição Linux popular para servidores, conhecida por sua estabilidade e segurança. É amplamente utilizada em ambientes de nuvem e data centers, oferecendo uma plataforma robusta para aplicações web e serviços.",
+    "nivel": 80
+  }
+]

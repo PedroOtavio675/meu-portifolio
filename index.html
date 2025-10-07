@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu" />
 </head>
 <body>
-   
     <div class="barra-lateral" id="barra-lateral">
         <button onclick="sairBarraLateral()" class="sairBarraLateral"><span class="material-symbols-outlined" >
             arrow_back_ios
@@ -74,46 +73,13 @@
 
     <section class="habilidades" id="habilidades">
         <h1>Habilidades</h1>
-        <div class="habilidades-caixa">
-            
-            <div class="cardHabilidades" id="javaScript">
-                <img src="img/jvImg.png" alt="habilidade1" class="habilidadesImagens">
-                <p>
-                    Embora meu conhecimento em JavaScript ainda esteja em desenvolvimento, já tenho uma boa compreensão dos conceitos básicos, como variáveis, integração com CSS e HTML, além de funções e métodos. Estou sempre buscando aprofundar meus estudos e expandir minhas habilidades nessa linguagem para poder explorar todo o seu potencial. 
-                </p>
-            </div>
-            <div class="cardHabilidades" id="css">
-                <img src="img/cssImg.png" alt="habilidade2" class="habilidadesImagens">
-                <p>CSS (Cascading Style Sheets) é uma linguagem essencial para o desenvolvimento web, responsável pela formatação e layout das páginas. Enquanto o HTML estrutura o conteúdo, o CSS define a aparência visual, controlando elementos como cores, fontes, espaçamento e disposição. Com recursos como media queries, permite criar designs responsivos, adaptando-se a diferentes tamanhos de tela.</p>
-            </div>
-            <div class="cardHabilidades" id="html">
-                <img src="img/htmlImg.png" alt="habilidade3" class="habilidadesImagens">
-                <p>
-                    HTML (HyperText Markup Language) é a linguagem de marcação fundamental para a construção de páginas web. Ele define a estrutura e o conteúdo de uma página, utilizando uma série de elementos, como títulos, parágrafos, listas, links, imagens e formulários. Com a organização dessas tags, o HTML cria a base sobre a qual o CSS e o JavaScript podem ser aplicados, permitindo a formatação e interatividade. Além disso, o HTML é responsável por tornar os sites acessíveis aos motores de busca e a leitores de tela, garantindo uma boa experiência para todos os usuários.
-                </p>
-            </div>
-            <div class="cardHabilidades" id="arduino">
-                <img src="img/arduinoimg.png" alt="habilidade4" class="habilidadesImagens">
-                <p>Arduino é uma plataforma de prototipagem eletrônica de código aberto que permite a criação de projetos interativos, combinando hardware e software de maneira simples e acessível. Utilizando uma placa de circuito e uma linguagem de programação baseada em C/C++, o Arduino facilita a construção de dispositivos como sensores, motores e luzes, que podem ser controlados por meio de comandos codificados.
-
-                </p>
-            </div>
-
-        </div>
-        <div class="caixa-btn-radio">
-            <input class="radio" checked type="radio" id="radio1" onclick="radioselected(this)" name="radio-btn">
-            <input class="radio" type="radio" id="radio2" onclick="radioselected(this)"  name="radio-btn">
-            <input class="radio" type="radio" id="radio3" onclick="radioselected(this)" name="radio-btn">
-            <input class="radio" type="radio" id="radio4" onclick="radioselected(this)" name="radio-btn">
+        <div class="habilidades-caixa" id="habilidadesID">
         </div>
     </section>
 
     <section id="projetos" class="projetos">
          <h1>Projetos</h1>
-         <div class="container-projetos">
-              <div class="projeto">
-                
-              </div>
+         <div class="container-projetos" id="projetos-id">
          </div>
     </section>
 
@@ -145,7 +111,7 @@
             
           </form>
     </div>
-    
+    <a href="" ></a>
 </section>
 <footer>
     <p>&copy;Pedro Otávio Rodrigues Pacheco</p>
@@ -177,39 +143,55 @@ function barra(){
    let barra = document.getElementById("barra-lateral")
     barra.style.visibility = "inherit"
 }
-function radioselected(x){
-    let caixa = document.querySelector(".cardHabilidades")
-    let js = document.getElementById("javaScript")
-    let css = document.getElementById("css")
-    let html = document.getElementById("html")
-    let arduino = document.getElementById("arduino")
-    if(x.id == "radio1"){
-        js.style.display = "inline"
-        css.style.display = "none"
-        html.style.display = "none"
-        arduino.style.display = "none"
-    }
-    if(x.id == "radio2"){
-        css.style.display = "inline"
-        js.style.display = "none"
-        arduino.style.display = "none"
-        html.style.display = "none"
-    }
-    if(x.id == "radio3"){
-        html.style.display = "inline"
-        js.style.display = "none"
-        arduino.style.display = "none"
-        css.style.display = "none"
-    }
-    if(x.id == "radio4"){
-        arduino.style.display = "inline"
-        js.style.display = "none"
-        html.style.display = "none"
-        css.style.display = "none"
-    }
-}
-  
+     fetch('habilidades.json')
+    .then(response => response.json())
+    .then(data => {
+        habilidadesJson = data;
+        carregarHabilidades();
+    });
 
+function carregarHabilidades() {
+    const container = document.getElementById("habilidadesID");
+    habilidadesJson.forEach(habilidade => {
+        const div = document.createElement("div");
+        div.classList.add("habilidade");
+        div.innerHTML = `
+            <img src="${habilidade.imagem}" alt="${habilidade.nome}">
+            <h2>${habilidade.nome}</h2>
+            <p>${habilidade.descricao}</p>
+            <div class="nivel" style="width: ${habilidade.nivel}%;"></div>
+        `;
+        container.appendChild(div);
+    });
+}
+
+document.addEventListener("DOMContentLoaded", carregarHabilidades);
+
+fetch('projetos.json')
+.then(response => response.json())
+.then(data => {
+    projetosJson = data;
+    carregarProjetos()
+})
+
+function carregarProjetos(){
+  const container = document.getElementById("projetos-id")
+   projetosJson.forEach(projeto =>{
+    const div = document.createElement("div")
+    div.classList.add("projeto")
+    div.innerHTML = `
+    
+            <h2 style="padding:10px">${projeto.nome}</h2>
+             <img style="width:250px" src="${projeto.imagem}" alt="${projeto.nome}">
+            <p style="padding:10px">${projeto.descricao}</p>
+            <p>Link para o vídeo do projeto:</p>
+            <a target="_blank" class="linkProjeto" href="${projeto.link}"">Clique aqui</a>
+            <div class="nivel" style="width: ${projeto.nivel}%;"></div>
+    `;
+    container.appendChild(div)
+   })
+}
+document.addEventListener("DOMContentLoaded", carregarProjetos);
 </script>
 </body>
 </html>
